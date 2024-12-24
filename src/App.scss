@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+body {
+  margin: 0;
+  background-color: #2b2d30;
+  background-image: linear-gradient(
+      to right,
+      #1a1a1c 0.1rem,
+      transparent 0.1rem
+    ),
+    linear-gradient(to bottom, #1a1a1c 0.1rem, transparent 0.1rem);
+  background-size: 6rem 6rem;
+  background-repeat: repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  max-height: 90%;
+  background-color: rgba(26, 26, 28, 0.8);
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  overflow-y: auto;
+
+  & > h1 {
+    font-family: "JetBrains Mono ExtraBold", sans-serif;
+    color: white;
+    letter-spacing: 0.7rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.6rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 > span {
+    color: #cd669a;
+  }
+}

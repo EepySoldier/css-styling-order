@@ -1,0 +1,24 @@
+.Section {
+  margin: 1.5rem 0 0 0;
+  padding: 0;
+  width: fit-content;
+  height: fit-content;
+
+  &__pills {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+    font-family: "JetBrains Mono ExtraBold", sans-serif;
+    color: white;
+    margin: 0 0 0.7rem 0;
+    border: 0;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+  }
+}

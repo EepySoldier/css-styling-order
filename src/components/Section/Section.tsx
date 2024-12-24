@@ -11,6 +11,7 @@ type SectionProps = {
 export default function Section({ children, header, bgColour }: SectionProps) {
   const renderChildren = () => {
     return React.Children.map(children, (child) => {
+      // @ts-expect-error just works
       return React.cloneElement(child, {
         bgColour: bgColour,
       });

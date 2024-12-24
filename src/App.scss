@@ -1,4 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+@font-face {
+  font-family: "JetBrains Mono SemiBold";
+  src: url("./fonts/JBM-SemiBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JetBrains Mono ExtraBold";
+  src: url("./fonts/JBM-ExtraBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   margin: 0;

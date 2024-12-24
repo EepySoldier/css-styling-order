@@ -62,6 +62,11 @@ function App() {
         <Pill content=":nth-child()" />
         <Pill content=":last-child" />
       </Section>
+      <Section header="Others (uncommon)" bgColour="#4a6dfa">
+        <Pill content="visibility" />
+        <Pill content="z-index" />
+        <Pill content="overflow" />
+      </Section>
     </div>
   );
 }

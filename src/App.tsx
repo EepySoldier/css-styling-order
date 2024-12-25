@@ -52,6 +52,11 @@ function App() {
         <Pill content="animation" />
         <Pill content="transition" />
       </Section>
+      <Section header="Others (uncommon)" bgColour="#4a6dfa">
+        <Pill content="visibility" />
+        <Pill content="z-index" />
+        <Pill content="overflow" />
+      </Section>
       <Section header="Pseudo-classes & Elements" bgColour="#f879b5">
         <Pill content=":hover" />
         <Pill content=":focus" />
@@ -61,11 +66,6 @@ function App() {
         <Pill content=":first-child" />
         <Pill content=":nth-child()" />
         <Pill content=":last-child" />
-      </Section>
-      <Section header="Others (uncommon)" bgColour="#4a6dfa">
-        <Pill content="visibility" />
-        <Pill content="z-index" />
-        <Pill content="overflow" />
       </Section>
     </div>
   );
